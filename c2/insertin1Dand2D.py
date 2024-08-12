@@ -1,0 +1,13 @@
+import numpy as np
+array_Id = np.array([1,2,3,4,5])
+print("\n\n ID Array befor insertion:")
+print(array_Id)
+array_Id = np.insert(array_Id, 2,6)
+print("\n\n Id array after insertion:")
+print(array_Id)
+array_2d = np.array([[1,2,3],[4,5,6]])
+print("\n Original 2d array :")
+print(array_2d)
+array_2d = np.insert(array_2d, 1, [7,8,9], axis=0)
+print("\n 2D Array after insertion:")
+print(array_2d)
